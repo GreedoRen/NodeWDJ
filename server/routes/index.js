@@ -5,7 +5,6 @@ const router = express.Router();
 // Require the index file
 const speakersRoute = require('./speakers');
 const feedbackRoute = require('./feedback');
-const authRouter = require('./auth.router')
 const usersRoute = require('./users');
 
 module.exports = (params) => {
